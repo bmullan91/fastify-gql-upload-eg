@@ -1,0 +1,33 @@
+{
+  "name": "fastify-starter",
+  "version": "1.0.0",
+  "description": "Get started using Fastify with this basic template.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "dev": "nodemon src/start.js",
+    "debug": "node --inspect src/start.js",
+    "test": "tap --no-coverage  --no-esm"
+  },
+  "dependencies": {
+    "fastify": "2.12.0",
+    "fastify-gql": "3.0.6",
+    "fastify-multipart": "1.0.5",
+    "fastify-plugin": "1.6.0",
+    "graphql-upload": "10.0.0"
+  },
+  "devDependencies": {
+    "tap": "^14.10.2",
+    "nodemon": "^2.0.1"
+  },
+  "keywords": [
+    "fastify",
+    "node.js",
+    "backend",
+    "server",
+    "http"
+  ],
+  "eslintConfig": {
+    "sourceType": "script"
+  }
+}
